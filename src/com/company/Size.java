@@ -1,16 +1,16 @@
 package com.company;
 
 public enum Size {
-    XXS(46){
+    XXS(38){
         @Override
         public String GetDescription(){
             return "Детский размер";
         }
     },
-    XS(32),
-    S(34),
-    M(36),
-    L(40);
+    XS(40),
+    S(42),
+    M(44),
+    L(48);
 
     int euroSize;
 

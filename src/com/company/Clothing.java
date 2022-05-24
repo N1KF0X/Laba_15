@@ -2,7 +2,7 @@ package com.company;
 
 abstract class Clothing {
     Size size;
-    double price;
+    int price;
     String color;
 
     Clothing(Size size, int price, String color) {
